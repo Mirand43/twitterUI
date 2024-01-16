@@ -56,7 +56,7 @@ export function Status() {
                 </label>
 
                 <button type='submit'>
-                    <PaperPlaneRight/>
+                    <PaperPlaneRight />
                     <span>Answer</span>
                 </button>
             </form>
