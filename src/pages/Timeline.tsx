@@ -2,8 +2,6 @@ import { Header } from "../components/Header"
 import { Separator } from "../components/Separator"
 import { Tweet } from "../components/Tweet"
 
-import Imagem from '../assets/imagem/imag01.jpg'
-
 import './Timeline.css'
 import { FormEvent, useState } from "react"
 
@@ -34,7 +32,7 @@ export function Timeline() {
 
       <form onSubmit={createNewTweet} className='new-tweet-form'>
         <label htmlFor="tweet">
-          <img src={Imagem} alt="António Miranda Quintas" />
+          <img src="https://avatars.githubusercontent.com/u/81479075?v=4" alt="António Miranda Quintas" />
 
           <textarea
           id='tweet'

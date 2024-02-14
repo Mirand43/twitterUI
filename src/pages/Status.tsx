@@ -1,6 +1,5 @@
 import { Header } from "../components/Header"
 import { Separator } from "../components/Separator"
-import Imagem from '../assets/imagem/imag01.jpg'
 import './Status.css'
 import { Tweet } from "../components/Tweet"
 import { FormEvent, useState } from "react"
@@ -43,7 +42,7 @@ export function Status() {
 
             <form onSubmit={createNewAnswers} className='answer-tweet-form'>
                 <label htmlFor="tweet">
-                    <img src={Imagem} alt="António Miranda Quintas" />
+                    <img src="https://avatars.githubusercontent.com/u/81479075?v=4" alt="António Miranda Quintas" />
 
                     <textarea
                         id='tweet'

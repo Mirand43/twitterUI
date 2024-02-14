@@ -2,8 +2,6 @@ import './Tweet.css'
 import { ArrowsClockwise, Heart, ChatCircle } from "phosphor-react"
 import { Link } from 'react-router-dom'
 
-import ImagemTweet from '../assets/imagem/imag01.jpg'
-
 interface TweetProps {
     content: string
 }
@@ -11,7 +9,7 @@ interface TweetProps {
 export function Tweet(props: TweetProps) {
     return(
         <Link to="./status" className="tweet">
-          <img src={ImagemTweet} alt="António Miranda Quintas" />
+          <img src="https://avatars.githubusercontent.com/u/81479075?v=4" alt="António Miranda Quintas" />
 
             <div className="tweet-content">
                 
